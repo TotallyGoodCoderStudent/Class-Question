@@ -1,0 +1,14 @@
+#INPUT NAME JOE FOR EASTER EGG
+print("what's your name?")
+
+userName = input()
+
+if userName == 'joe': #if the user inputs joe
+  print("joe who?") # says joe who
+  joeWho = input()
+  if joeWho == 'mama':
+    print("AHAHHHHAHAHAHHA YOUR A FUNNY GUY AREN'T YA!") # calls you funny if you input mama
+  else:
+      print("oh. I thought it would be mama") 
+else:
+  print("hello",userName)
