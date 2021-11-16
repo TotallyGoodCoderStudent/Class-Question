@@ -1,0 +1,25 @@
+numbToAdd = int(input("how many numbers would you like to add? ")) #checks if 2 or 3 numbers are being added
+
+if numbToAdd > 3:
+  print("our system cannot handle more than 4 numbers")
+else:
+  number1 = int(input("first number: ")) #gets input for 1st number
+number2 = int(input("second number: ")) # second number input
+ # third number input
+
+if numbToAdd <= 2:
+  sum = number1 + number2
+
+if numbToAdd == 3:
+  number3 = int(input("third number: "))
+  sum = number1 + number2 + number3 # combines the 3 numbers into the sum
+
+
+
+print("the sum will be", sum) #prints the sum + text
+
+if sum == 420: # bonus jokes
+  print("Nice!")
+
+if sum == 69: # bonus jokes
+  print("Nice!")
